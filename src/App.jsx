@@ -41,9 +41,7 @@ const App = () => {
     
     const newItems = addedItems.filter((addedItem) => addedItem.id !== item.id);
     setAddedItem(newItems);
-    {
-      alert("item already in the cart");
-    }
+    
 
     
     // console.log(addedItems);
